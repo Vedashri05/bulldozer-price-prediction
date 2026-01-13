@@ -51,9 +51,14 @@ for price prediction problems and penalizes large percentage errors.
 ---
 
 ## 6. Results
-The model achieved reasonable performance on the validation set using time-based
-evaluation, demonstrating the effectiveness of tree-based models on structured
-auction data.
+The RandomForestRegressor achieved strong performance using a time-based
+validation approach, indicating good generalization to future data.
+
+| Metric | Training | Validation |
+|------|----------|------------|
+| MAE | 2,953.82 | 5,963.70 |
+| RMSLE | 0.145 | 0.246 |
+| R² Score | 0.959 | 0.881 |
 
 ---
 
